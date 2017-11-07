@@ -1,0 +1,95 @@
+[A] What is PHP: Hypertext Preprocessor ? 
+
+1. PHP is a widely-used, open source scripting language
+2. PHP scripts are executed on the server ( Linux, IIS )
+3. PHP can generate dynamic page content
+
+<html>
+   <p><?php echo $output; ?></p>
+</html>
+
+4. PHP can create, open, read, write, delete, and close files on the server
+5. PHP can do CRUD ( Create, Read, Update, Delete ) operations on any database most prefer MySQL.
+6. PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+
+
+[B] Installation :
+
+//Example in ubuntu
+//apt-get install apache
+
+1. install a web server like Apache or IIS / TOMCAT
+2. install PHP
+3. install a database, such as MySQL
+4. In common install all stacks in a single combo named : XAMPP for Windows, XAMPP for Linux and XAMPP for OS X.
+   Please follow this URL to install : https://www.apachefriends.org/download.html
+
+X - Cross Platform
+A - Apache
+M - MySQL
+P - PHP
+P - Pearl
+
+//WAMPP
+
+[C] Understand XAMPP or any other Webserver Cofiguration
+
+About XAMPP : It is a simple, light-weighted Apache server that makes it extremely easy for developers to create a local http server with just few clicks.
+
+1. What is apache and document root folder // var/www/html/
+2. What is MySQL
+3. What is Cross plateform means
+
+
+[D] Basic PHP Syntax, file extension and it's usage.
+
+1. <?php ... ?>
+2. <? ?> //deprectaed
+
+
+[E] Comments in PHP
+
+1. Single line - // OR # 
+2. Multiline - /* ... */
+
+<?php 
+  $x = 5 /* + 15 */ + 5;
+  echo $x;
+?>
+
+
+[F] PHP Case Sensitivity
+
+1. Keywords, classes and functions are not case sensitive
+2. Declared variables are case sensitive
+3. Now understand what is variables ? How to define them and use them ?
+
+
+	Variables:
+
+	1. Variables are represented by dollar ($) sign
+	2. Variables are case sensitive
+
+PHP Variables Scope
+In PHP, variables can be declared anywhere in the script.
+
+The scope of a variable is the part of the script where the variable can be referenced/used.
+
+PHP has three different variable scopes:
+
+local
+global
+static
+
+	Examples :  
+
+	$var = 'Bob';
+	$Var = 'Joe';
+	echo "$var, $Var";      // outputs "Bob, Joe"
+
+	$4site = 'not yet';     // invalid; starts with a number
+	$_4site = 'not yet';    // valid; starts with an underscore
+	$täyte = 'mansikka';    // valid; 'ä' is (Extended) ASCII 228.
+
+
+[G] What is GIT (Sub versioning) and how developers are using sub versioning and why ?
